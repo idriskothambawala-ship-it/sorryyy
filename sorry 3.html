@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sorry My babbbyyy💕</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f0a0da, #c7cef5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+}
+
+.container {
+    background: rgb(147, 196, 255);
+    padding: 25px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    position: relative;
+    z-index: 2;
+}
+
+h1 {
+    color: #ff4d6d;
+}
+
+p {
+    font-size: 15px;
+    color: #444;
+}
+
+img {
+    width: 80px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.forgive {
+    background: #ff4d6d;
+    color: white;
+}
+
+.angry {
+    background: #ddd;
+}
+
+.message {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #ff4d6d;
+}
+
+/* Floating hearts */
+.heart {
+    position: absolute;
+    color: #ff4d6d;
+    animation: float 5s infinite;
+    font-size: 20px;
+}
+
+@keyframes float {
+    0% {transform: translateY(100vh);}
+    100% {transform: translateY(-10vh);}
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>I'm Sorry 🥺💔</h1>
+
+    <p>
+        I know I was sooo sooo sooo rude and did a silly prank 😔  
+        You Really didn't deserve that 💔  
+        You are my real happiness of life 🥰  
+        Please Please forgive me 💕✨ 
+        me too bass prank kartoo hatoo ane jee reels tuye mane moklii aee bhadhi chokriyoo bakvas che tara aagal
+        aikle le too mara pase koi point aj nhoto 😔😔😔😔😔 
+    </p>
+
+    <button class="forgive" onclick="forgive()">maaaf 💖</button>
+    <button class="angry" onclick="angry()">Still gussaa 😡</button>
+
+    <div class="message" id="response"></div>
+</div>
+
+<!-- Floating Hearts -->
+<div class="heart" style="left:10%">💖</div>
+<div class="heart" style="left:30%">💕</div>
+<div class="heart" style="left:60%">💗🥰🥰</div>
+<div class="heart" style="left:80%">💘😘😘</div>
+
+<script>
+function forgive() {
+    document.getElementById("response").innerHTML =
+    "Yeeeeeeee 🥰 Thank you for maaagf me! I promise to never hurt you again 💕 babby come on whatsapp let's talk some dirty😁😁😁";
+}
+
+function angry() {
+    document.getElementById("response").innerHTML =
+    "I understand what you feel 😔 I'll keep trying until you smile again 💖 soorryy maalluuu";
+}
+</script>
+
+</body>
+</html>
